@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/929f4da580.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portal de filmes</title>
+</head>
+<body>
+    <!--area da header com logo, menu inicial e barra de pesquisa-->
+    <header class="container-1">
+        <nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="col-lg-12 container-fluid">
+                <img src="imgs/logo do portal.png" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Em Destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entrevistas & MakingOf</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novidades</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main">
+        <div class="row">
+
+            <div class="col-12">
+                <!--area de "Lançamentos"-->
+                <div class="row lancamentos">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Lançamentos</h2>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="row carousel-inner">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="carousel-item active">
+                                    <div class="filme">                                       
+                                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/htQch8jDZ4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                  
+                                    </div>
+                                    <div class="sinopse">  
+                                        <h1>Vingadores: Guerra Infinita</h1>
+                                        <ul>
+                                            <li><strong>Sinopse:</strong>Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.</li>
+                                            <li><strong>Diretor:</strong> Anthony Russo, Joe Russo</li>
+                                            <li><strong>Roteirista:</strong>Joe Russo</li>
+                                            <li><strong>Estreia:</strong>2018</li>
+                                            <li><strong>Elenco:</strong>Robert Downey Jr. Personagem : Tony Stark / Iron Man ; Chris Hemsworth. Personagem : Thor ; Mark Ruffalo. Personagem : Bruce Banner / Hulk ; Chris Evans...</li>
+                                            <li><strong>Avaliação:</strong></li>
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="filme">                                       
+                                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zC8Vc8rMOdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                     
+                                    </div>
+                                    <div class="sinopse">  
+                                        <h1>Jurassic World Dominion</h1>
+                                        <ul>
+                                            <li><strong>Sinopse:</strong>A sequência do filme Jurassic World, a sexta parcela da série Jurassic Park e o terceiro filme da série Jurassic World.</li>
+                                            <li><strong>Diretor:</strong>: Colin Trevorrow</li>
+                                            <li><strong>Roteiristas:</strong> Colin Trevorrow, Emily Carmichael</li>
+                                            <li><strong>Estreia:</strong>2022</li>
+                                            <li><strong>Elenco:</strong>Chris Pratt. Personagem : Owen Grady ; Bryce Dallas Howard. Personagem : Claire ; Jeff Goldblum. Personagem : Dr. Ian Malcom...</li>
+                                            <li><strong>Avaliação:</strong></li>
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="filme">                                       
+                                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YeQoQNZq7wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                  
+                                    </div>
+                                    <div class="sinopse">  
+                                        <h1>Red:Crescer é uma fera</h1>
+                                        <ul>
+                                            <li><strong>Sinopse:</strong>Uma menina de 13 anos começa a se transformar em um panda vermelho gigante sempre que fica animada.</li>
+                                            <li><strong>Diretora:</strong> Domee Shi</li>
+                                            <li><strong>Roteirista:</strong> Domee Shi</li>
+                                            <li><strong>Estreia:</strong>2022</li>
+                                            <li><strong>Elenco:</strong> Flávia Alessandra, Sandra Oh, Maitreyi Ramakrishnan</li>
+                                            <li><strong>Avaliação:</strong></li>
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                            <img src="imgs/estrela.png" alt="">
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <!--area de "Em destaque"-->
+                <div class="row em-destaque">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-10">
+                        <h2>Em destaque</h2>
+                    </div>
+                    <!--area das categorias-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Categorias: Todas</option>
+                            <option value="1">Ação e Aventura</option>
+                            <option value="2">Terror</option>
+                            <option value="3">Família</option>
+                            <option value="4">Musical</option>
+                            <option value="5">Drama</option>
+                            <option value="6">Comédia</option>
+                        </select>
+                    </div>
+                     <!--cartaz de filmes-->
+                    <div class="col-10 col-sm-12 col-md-6 col-lg-3">
+                        
+                        <div class="card">
+                            <img src="imgs/Sonic 2.jpg" class="card-img-top" alt="Luffy">
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        
+                        <div class="card">
+                            <img src="imgs/homemaranhacasa.jpg" class="card-img-top" alt="Luffy">
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        
+                        <div class="card">
+                            <img src="imgs/Moana.jpg" class="card-img-top" alt="Luffy">
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        
+                        <div class="card">
+                            <img src="imgs/Joker-2019.jpg" class="card-img-top" alt="Luffy">
+                        </div>
+
+                    </div>
+                     <!--Carregar mais filmes-->
+                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <button name="button">+ Carregar mais filmes</button>
+
+                     </div>
+
+
+                </div>
+                <!--area de "Avaliações"-->
+                <div class="row ultavaliacoes">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Últimas avaliações</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="avaliacoes">
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>Ricardo Soares</strong>s</h5>
+                                <p>Baseado nos livros infantis de Aaron Blabey, o enredo não é tudo isso, mas The Bad Guys brilha para a vida quando está no seu auge - perseguições frenéticas, alcaparras dando errado ou apenas acalorados, debates animados na gangue.</p>
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="avaliacoes">
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>João Paulo</strong> </h5>
+                                <p>Obra-prima absoluta. Outra bomba do Jared Leto como esperado. Quase tão bom quanto seu desempenho de Coringa. Este filme é sobre um cara meio vampiro ou algo assim, eu realmente não sei, mas é arte, se bem que não vi.</p>
+                                <img src="imgs/estrela.png" alt="">
+                            </picture>
+                        </div>
+                    </div>  
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="avaliacoes">
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>Luis Fernando</strong></h5>
+                                <p>Como a série de anime, Jujutsu Kaisen 0 às vezes parece muito com uma adaptação de Cliffs Notes, apesar de também apresentar mais interação entre os personagens coadjuvantes e o protagonista principal do que o mangá original.</p>
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                                <img src="imgs/estrela.png" alt="">
+                            </picture>
+                        </div>
+                    </div>  
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <button name="button"> + Carregar mais avaliações</button>
+                    </div>
+                </div>
+
+
+                <!--area de "Entrevista e Making of"-->
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Entrevistas & Making of</h2>
+                    </div>
+                </div>
+                <div class="row videos">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/vAvqlxo64Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3><strong>Entrevista com os vilões de Homem Aranha: Sem Volta para Casa</strong></h3>
+                        <h5><strong>Diretor:</strong>  Jon Watts</h5>
+                        <h5><strong>Roteirista:</strong>  Erik Sommers, Chris McKenna</h5>   
+                        <h5><strong>Estreia:</strong> 2021</h5>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/hsA3ftoRURA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3><strong>Entrevista com os bastidores de The Batman</strong></h3>
+                        <h5><strong>Diretor:</strong>  Matt Reeves</h5>
+                        <h5><strong>Roteirista:</strong>  Matt Reeves</h5>   
+                        <h5><strong>Estreia:</strong> 2022</h5>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/X8D1qUO3o0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3><strong>Apresentação do elenco de The Hobbit</strong></h3>
+                        <h5><strong>Diretor:</strong>  Peter Jackson</h5>
+                        <h5><strong>Roteirista:</strong>  Peter Jackson</h5>   
+                        <h5><strong>Estreia:</strong> 2014</h5>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <button name="button"> + Carregar mais vídeos</button>
+                     </div>
+                </div>
+                 <!--area de "Novidades, Sobre e Editorial"-->
+                <section class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="row novidades">
+                            <h2>Novidades</h2>
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="imgs/isabella.jpg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><strong>Encanto: Qual é o signo de cada personagem? Criador revela data do aniversário de Mirabel e família</strong></h5>
+                                        <p class="card-text">Em seu Twitter, Jared Bush vem atendendo a pedidos dos fãs e compartilhando mais informações sobre o nascimento de cada um dos membros do clã Madrigal.</p>
+                                        <input class="btn btn-secondary" type="button" value="Família">
+                                        <input class="btn btn-secondary" type="button" value="Oscar">
+                                        <input class="btn btn-secondary" type="button" value="Melhor animação">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="imgs/Animais Fantásticos.jpg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><strong>Animais Fantásticos 3: "Tivemos a oportunidade de aumentar esse universo", diz brasileiro idealizador gráfico da franquia</strong></h5>
+                                        <p class="card-text">O AdoroCinema entrevistou exclusivamente Eduardo Lima, designer gráfico da franquia Harry Potter e Animais Fantásticos.</p>
+                                        <input class="btn btn-secondary" type="button" value="Harry Potter">
+                                        <input class="btn btn-secondary" type="button" value="ficção científica">
+                                        <input class="btn btn-secondary" type="button" value="Elenco famoso">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="imgs/Cavaleiro da Lua.jpg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><strong>Cavaleiro da Lua: Episódios escondem códigos com surpresa para fãs da Marvel (e ninguém reparou)</strong></h5>
+                                        <p class="card-text">Cavaleiro da Lua: Episódios escondem códigos com surpresa para fãs da Marvel (e ninguém reparou)</p>
+                                        <input class="btn btn-secondary" type="button" value="Disney+">
+                                        <input class="btn btn-secondary" type="button" value="Ação">
+                                        <input class="btn btn-secondary" type="button" value="Séries do momento">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>        
+                    </div>
+        
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="sobre">
+                            <h2>Sobre</h2>
+                            <p>Sabemos que você demora uma eternidade no seu streaming favorito enquanto procura o que assistir. Estamos aqui para acabar com isso.
+                            </p>
+                            <p>Temos uma equipe de cinéfilos pesquisando e sugerindo filmes semanalmente, incluindo dicas que vão além do óbvio e lançamentos, muitos lançamentos - desde que eles valham a pena, claro. Por isso, esqueça os algoritmos de recomendação que trazem sempre as mesmas respostas.
+                            </p>
+                            <p>Temos também profissionais convidados da indústria de cinema indicando os longas-metragens preferidos e criando suas listas de filmes. Aliás, já dissemos que adoramos listas?</p>
+                        <div class="editorial">
+                            <h2>Editorial</h2>
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>Redator: </strong> Arthur Proença</h5>
+                            </picture>
+
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>Pesquisa: </strong> Arthur Proença</h5>
+                            </picture>
+
+                            <picture>
+                                <source srcset="" type="image/svg+xml">
+                                <img src="imgs/perfil img.png" class="img-fluid img-thumbnail" alt="...">
+                                <h5><strong>Gerente geral: </strong> Arthur Proença</h5>
+                            </picture>
+                            <h3>Redes sociais:</h3>
+                            <div class="icones">
+                                <picture>
+                                    <source srcset="" type="image/svg+xml">
+                                    <img src="imgs/icon twitter.png" class="img-fluid img-thumbnail" alt="...">
+                                </picture>
+    
+                                <picture>
+                                    <source srcset="" type="image/svg+xml">
+                                    <img src="imgs/icon instagram.png" class="img-fluid img-thumbnail" alt="...">
+                                </picture>
+    
+                                <picture>
+                                    <source srcset="" type="image/svg+xml">
+                                    <img src="imgs/icon facebook.png" class="img-fluid img-thumbnail" alt="...">
+                                </picture>
+    
+                            </div>
+                        
+                        </div>   
+                    </div>
+                    
+                </section>
+            </div>
+
+        </div>
+
+
+    <footer class="footer container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 area-footer">
+                <p>Copyright 2022 - Displina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+                <img src="imgs/logo do portal.png" class="logo">
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
+</html>

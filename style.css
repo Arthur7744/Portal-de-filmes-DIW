@@ -1,0 +1,195 @@
+html body{
+    background-color: rgb(0, 0, 0);    
+}
+a{
+    color: white !important;
+}
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/*CSS da header com logo, menu inicial e barra de pesquisa*/
+.container-1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.logo{
+    padding: 10px;
+    max-width: 150px;
+}
+.container-1 li {
+    margin: 10px;
+}
+.container-1 ul .nav-item a {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-1 ul .nav-item {
+    margin: 1px;
+    background-color: rgb(0, 0, 0);
+}
+.d-flex{
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.d-flex input{
+    height: 40px;
+}
+.d-flex button{
+    height: 40px;
+}
+/*Lançamentos*/
+.lancamentos img{
+    margin-bottom: 60px;
+}
+.lancamentos h2{
+    text-align: center;
+}
+.carousel-inner .filme iframe {
+    float: left;
+    margin-right: 20px;
+}
+.carousel-inner .sinopse {
+    color: white;  
+}
+.carousel-inner .sinopse ul{
+    list-style: none;
+}
+.lancamentos img{
+    max-width: 30px;
+    display: inline;
+}
+/*CSS de "Em Destaque*/
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main .card{
+    margin-bottom: 15px;
+}
+.main .em-destaque{
+    margin-bottom: 20px;
+}
+/*CSS das categorias*/
+select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+/*cartaz dos filmes*/
+.card{
+    margin: 1px;
+}
+/*+carregamentos*/
+button{
+    float:right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(129, 129, 129);
+    margin-bottom: 20px;
+}
+/*Últimas avalições*/
+.ultavaliacoes img{
+    margin-bottom: 20px;
+}
+.avaliacoes picture img{
+    max-width: 50px;
+}
+.avaliacoes picture h5{
+    display: inline-block;
+}
+/*Entervistas e Makingof*/
+.main .videos iframe{
+    margin-right: 20px;
+}
+.avaliacoes p{
+    color: white;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+.main section .novidades{
+    float: right;
+}
+/*area de "Novidades, Sobre e Editorial"*/
+.card-title{
+    color: black;
+}
+.card{
+    background-color: black;
+}
+.card-body input{
+    margin: 3px;
+}
+.card-body h5{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.card-body p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.sobre p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.editorial picture img{
+    max-width: 50px;
+}
+.editorial picture h5{
+    display: inline-block;
+
+}
+.editorial .icones picture {
+    display: inline-block;
+}
+.editorial picture{
+    margin: 10px;
+    display: block;
+}
+
+/*Footer*/
+.footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(129, 129, 129);
+}
+.area-footer p{
+    padding: 2px;
+    margin: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+/*Ajuste da img no carousel*/
+@media screen and (max-width: 600px){
+    .filme iframe{
+        max-width: 300px;
+    }
+    
+}
